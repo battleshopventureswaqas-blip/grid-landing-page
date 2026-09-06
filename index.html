@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Grid landing page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Hidden Checkbox for CSS-only menu toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+
+  <!-- Nav -->
+  <nav class="navbar b-b b-r b-l b-t">
+    <div class="nav-brand">
+      <img src="assets/images/favicon-32x32.png" alt="dot-icon" class="dot-icon"> Bridge Collective
+    </div>
+    
+    <!-- Label linked to the checkbox above -->
+    <label for="menu-toggle" class="nav-menu-btn">
+      <img src="assets/images/icon-menu.svg" alt="menu icon" class="icon-open">
+      <img src="assets/images/icon-close.svg" alt="close icon" class="icon-close">
+    </label>
+  </nav>
+
+  <section class="grid-container">
+    <!-- Hero -->
+    <div class="hero b-r">
+      <h1>A classroom <br> for every child.</h1>
+      <p>We fund the schools, train the teachers, and measure what works — so every child we reach today becomes a graduate tomorrow.</p>
+    </div>
+    
+    <!-- Stats Card 1 -->
+    <div class="stats b-r b-b">
+      <div class="stats-0">
+         <img src="assets/images/icon-sparkle.svg" alt="Sparkle icon">  2.4M
+      </div>
+      <div class="stats-bottom-text">
+        Students reached
+        <small>Across 31 countries since 2011.</small>
+      </div>
+    </div>
+    
+    <!-- Stats Card 2 (Top Right) -->
+    <div class="stats-1 b-r b-b b-t b-l">
+      <div class="stats-0"> 
+        <img src="assets/images/icon-plus.svg" alt="Plus icon">  1,284
+      </div>
+      <div class="stats-bottom-text">
+        Schools partnered
+        <small>In 14 countries, from Kenya to Guatemala.</small>
+      </div>
+    </div>
+    
+    <!-- Stats Card 3 -->
+    <div class="stats-2 b-r b-b b-t">
+      <div class="stats-0"> 
+        <img src="assets/images/icon-arrow-right.svg" alt="Arrow icon">  38K
+      </div>
+      <div class="stats-bottom-text">
+        Teachers trained
+        <small>Equipped with modern tools and methodology.</small>
+      </div>
+    </div>
+    
+    <!-- Stats Card 4 (Bottom Right) -->
+    <div class="stats-3 b-r b-b b-t">
+      <div class="stats-0"> 
+         <img src="assets/images/icon-trending-up.svg" alt="Trending up icon">  3.1×
+      </div>
+      <div class="stats-bottom-text">
+        Graduation lift
+        <small>Partner schools outperform national averages 3x.</small>
+      </div>
+    </div>
+    
+    <!-- Hidden Mobile Menu for Grid -->
+    <div class="mobile-menu">
+      <a href="#">About</a>
+      <a href="#">Our Work</a>
+      <a href="#">Partners</a>
+      <a href="#">Annual Report</a>
+      <a href="#">Donate</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer b-t">
+    <div class="footer-brand"> &copy; 2026 Bridge Collective</div>
+    <div class="footer-charity">Registered charity 12345678</div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Waqas Siddiquie</a>.
+  </div>
+
+</body>
+</html>
